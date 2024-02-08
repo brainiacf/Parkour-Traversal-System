@@ -1,73 +1,73 @@
 [
 	{
-		"file": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Source\\ProjectCreed\\ProjectCreed.Build.cs",
+		"file": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\Source\\ProjectCreed\\ProjectCreed.Build.cs",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\.vscode\\compileCommands_Default\\ProjectCreed.1.rsp"
+			"@C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\.vscode\\compileCommands_Default\\ProjectCreed.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Source\\ProjectCreed\\ProjectCreed.cpp",
+		"file": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\Source\\ProjectCreed\\ProjectCreed.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\.vscode\\compileCommands_Default\\ProjectCreed.1.rsp"
+			"@C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\.vscode\\compileCommands_Default\\ProjectCreed.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Source\\ProjectCreed\\ProjectCreed.h",
+		"file": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\Source\\ProjectCreed\\ProjectCreed.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\.vscode\\compileCommands_Default\\ProjectCreed.1.rsp"
+			"@C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\.vscode\\compileCommands_Default\\ProjectCreed.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Source\\ProjectCreed\\ProjectCreedCharacter.cpp",
+		"file": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\Source\\ProjectCreed\\ProjectCreedCharacter.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\.vscode\\compileCommands_Default\\ProjectCreed.1.rsp"
+			"@C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\.vscode\\compileCommands_Default\\ProjectCreed.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Source\\ProjectCreed\\ProjectCreedCharacter.h",
+		"file": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\Source\\ProjectCreed\\ProjectCreedCharacter.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\.vscode\\compileCommands_Default\\ProjectCreed.1.rsp"
+			"@C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\.vscode\\compileCommands_Default\\ProjectCreed.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Source\\ProjectCreed\\ProjectCreedGameMode.cpp",
+		"file": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\Source\\ProjectCreed\\ProjectCreedGameMode.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\.vscode\\compileCommands_Default\\ProjectCreed.1.rsp"
+			"@C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\.vscode\\compileCommands_Default\\ProjectCreed.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Source\\ProjectCreed\\ProjectCreedGameMode.h",
+		"file": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\Source\\ProjectCreed\\ProjectCreedGameMode.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\.vscode\\compileCommands_Default\\ProjectCreed.1.rsp"
+			"@C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\.vscode\\compileCommands_Default\\ProjectCreed.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Source\\ProjectCreed\\ReferenceCubeActor.cpp",
+		"file": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\Source\\ProjectCreed\\ReferenceCubeActor.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\.vscode\\compileCommands_Default\\ProjectCreed.1.rsp"
+			"@C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\.vscode\\compileCommands_Default\\ProjectCreed.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Source\\ProjectCreed\\ReferenceCubeActor.h",
+		"file": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\Source\\ProjectCreed\\ReferenceCubeActor.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\.vscode\\compileCommands_Default\\ProjectCreed.1.rsp"
+			"@C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\.vscode\\compileCommands_Default\\ProjectCreed.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	}

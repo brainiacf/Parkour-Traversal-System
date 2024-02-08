@@ -30,7 +30,7 @@
 					"ProjectCreed",
 					"Win64",
 					"Debug",
-					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\ProjectCreed.uproject",
+					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\ProjectCreed.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -47,7 +47,7 @@
 					"ProjectCreed",
 					"Win64",
 					"Debug",
-					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\ProjectCreed.uproject",
+					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\ProjectCreed.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -67,7 +67,7 @@
 					"ProjectCreed",
 					"Win64",
 					"Debug",
-					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\ProjectCreed.uproject",
+					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\ProjectCreed.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -84,7 +84,7 @@
 					"ProjectCreed",
 					"Win64",
 					"DebugGame",
-					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\ProjectCreed.uproject",
+					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\ProjectCreed.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -101,7 +101,7 @@
 					"ProjectCreed",
 					"Win64",
 					"DebugGame",
-					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\ProjectCreed.uproject",
+					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\ProjectCreed.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -121,7 +121,7 @@
 					"ProjectCreed",
 					"Win64",
 					"DebugGame",
-					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\ProjectCreed.uproject",
+					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\ProjectCreed.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -138,7 +138,7 @@
 					"ProjectCreed",
 					"Win64",
 					"Development",
-					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\ProjectCreed.uproject",
+					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\ProjectCreed.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -155,7 +155,7 @@
 					"ProjectCreed",
 					"Win64",
 					"Development",
-					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\ProjectCreed.uproject",
+					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\ProjectCreed.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -175,7 +175,7 @@
 					"ProjectCreed",
 					"Win64",
 					"Development",
-					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\ProjectCreed.uproject",
+					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\ProjectCreed.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -192,7 +192,7 @@
 					"ProjectCreed",
 					"Win64",
 					"Test",
-					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\ProjectCreed.uproject",
+					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\ProjectCreed.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -209,7 +209,7 @@
 					"ProjectCreed",
 					"Win64",
 					"Test",
-					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\ProjectCreed.uproject",
+					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\ProjectCreed.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -229,7 +229,7 @@
 					"ProjectCreed",
 					"Win64",
 					"Test",
-					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\ProjectCreed.uproject",
+					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\ProjectCreed.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -246,7 +246,7 @@
 					"ProjectCreed",
 					"Win64",
 					"Shipping",
-					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\ProjectCreed.uproject",
+					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\ProjectCreed.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -263,7 +263,7 @@
 					"ProjectCreed",
 					"Win64",
 					"Shipping",
-					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\ProjectCreed.uproject",
+					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\ProjectCreed.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -283,7 +283,7 @@
 					"ProjectCreed",
 					"Win64",
 					"Shipping",
-					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\ProjectCreed.uproject",
+					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\ProjectCreed.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -300,7 +300,7 @@
 					"ProjectCreedEditor",
 					"Win64",
 					"Debug",
-					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\ProjectCreed.uproject",
+					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\ProjectCreed.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -317,7 +317,7 @@
 					"ProjectCreedEditor",
 					"Win64",
 					"Debug",
-					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\ProjectCreed.uproject",
+					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\ProjectCreed.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -337,7 +337,7 @@
 					"ProjectCreedEditor",
 					"Win64",
 					"Debug",
-					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\ProjectCreed.uproject",
+					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\ProjectCreed.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -354,7 +354,7 @@
 					"ProjectCreedEditor",
 					"Win64",
 					"DebugGame",
-					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\ProjectCreed.uproject",
+					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\ProjectCreed.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -371,7 +371,7 @@
 					"ProjectCreedEditor",
 					"Win64",
 					"DebugGame",
-					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\ProjectCreed.uproject",
+					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\ProjectCreed.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -391,7 +391,7 @@
 					"ProjectCreedEditor",
 					"Win64",
 					"DebugGame",
-					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\ProjectCreed.uproject",
+					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\ProjectCreed.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -408,7 +408,7 @@
 					"ProjectCreedEditor",
 					"Win64",
 					"Development",
-					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\ProjectCreed.uproject",
+					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\ProjectCreed.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -425,7 +425,7 @@
 					"ProjectCreedEditor",
 					"Win64",
 					"Development",
-					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\ProjectCreed.uproject",
+					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\ProjectCreed.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -445,7 +445,7 @@
 					"ProjectCreedEditor",
 					"Win64",
 					"Development",
-					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\ProjectCreed.uproject",
+					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\ProjectCreed.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -462,7 +462,7 @@
 			{
 				"name": "Launch ProjectCreed (Debug)",
 				"request": "launch",
-				"program": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+				"program": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
 				"preLaunchTask": "ProjectCreed Win64 Debug Build",
 				"args": [
 				],
@@ -478,7 +478,7 @@
 			{
 				"name": "Launch ProjectCreed (DebugGame)",
 				"request": "launch",
-				"program": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+				"program": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
 				"preLaunchTask": "ProjectCreed Win64 DebugGame Build",
 				"args": [
 				],
@@ -494,7 +494,7 @@
 			{
 				"name": "Launch ProjectCreed (Development)",
 				"request": "launch",
-				"program": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Binaries\\Win64\\UnrealGame.exe",
+				"program": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\Binaries\\Win64\\UnrealGame.exe",
 				"preLaunchTask": "ProjectCreed Win64 Development Build",
 				"args": [
 				],
@@ -510,7 +510,7 @@
 			{
 				"name": "Launch ProjectCreed (Test)",
 				"request": "launch",
-				"program": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+				"program": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
 				"preLaunchTask": "ProjectCreed Win64 Test Build",
 				"args": [
 				],
@@ -526,7 +526,7 @@
 			{
 				"name": "Launch ProjectCreed (Shipping)",
 				"request": "launch",
-				"program": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+				"program": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
 				"preLaunchTask": "ProjectCreed Win64 Shipping Build",
 				"args": [
 				],
@@ -545,7 +545,7 @@
 				"program": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
 				"preLaunchTask": "ProjectCreedEditor Win64 Debug Build",
 				"args": [
-					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\ProjectCreed.uproject"
+					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\ProjectCreed.uproject"
 				],
 				"cwd": "C:\\Program Files\\Epic Games\\UE_5.3",
 				"stopAtEntry": false,
@@ -562,7 +562,7 @@
 				"program": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
 				"preLaunchTask": "ProjectCreedEditor Win64 DebugGame Build",
 				"args": [
-					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\ProjectCreed.uproject"
+					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\ProjectCreed.uproject"
 				],
 				"cwd": "C:\\Program Files\\Epic Games\\UE_5.3",
 				"stopAtEntry": false,
@@ -579,7 +579,7 @@
 				"program": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
 				"preLaunchTask": "ProjectCreedEditor Win64 Development Build",
 				"args": [
-					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\ProjectCreed.uproject"
+					"C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\ProjectCreed.uproject"
 				],
 				"cwd": "C:\\Program Files\\Epic Games\\UE_5.3",
 				"stopAtEntry": false,
@@ -599,7 +599,7 @@
 				"args": [
 					"-projectfiles",
 					"-vscode",
-					"-project=C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\ProjectCreed.uproject",
+					"-project=C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\ProjectCreed.uproject",
 					"-game",
 					"-engine",
 					"-dotnet"
