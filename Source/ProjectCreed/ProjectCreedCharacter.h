@@ -5,8 +5,10 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "Logging/LogMacros.h"
+#include "MotionWarpingComponent.h"
 #include "ProjectCreedCharacter.generated.h"
 
+class ReferenceCubeActor;
 class USpringArmComponent;
 class UCameraComponent;
 class UInputMappingContext;
@@ -47,6 +49,14 @@ class AProjectCreedCharacter : public ACharacter
 	/*Sprint Input Action */
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	UInputAction* SprintAction;
+	
+	/*Vault Input Action*/
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
+	UInputAction* VaultAction;
+
+	// /*Reference Cube Actor*/
+	// UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Reference Cube", meta = (AllowPrivateAccess = "true"))
+	// TSubclassOf<ReferenceCubeActor> ReferenceCubeActorClass;
 
 public:
 	AProjectCreedCharacter();
@@ -62,7 +72,10 @@ protected:
 	
 	/*Called for Sprint Input*/
 	void Sprint(const FInputActionValue& Value);
-	void StopSprinting(const FInputActionValue& Value);			
+	void StopSprinting(const FInputActionValue& Value);		
+
+	/*Called for Vault Input*/
+	void Vault(const FInputActionValue& Value);	
 
 protected:
 	// APawn interface

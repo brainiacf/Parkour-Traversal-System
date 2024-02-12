@@ -10,6 +10,7 @@
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
+#include "ReferenceCubeActor.h"
 
 DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 
@@ -90,6 +91,10 @@ void AProjectCreedCharacter::SetupPlayerInputComponent(UInputComponent* PlayerIn
 		// Sprinting
 		EnhancedInputComponent->BindAction(SprintAction, ETriggerEvent::Started, this, &AProjectCreedCharacter::Sprint);
 		EnhancedInputComponent->BindAction(SprintAction, ETriggerEvent::Completed, this, &AProjectCreedCharacter::Sprint);
+
+		// Vaulting
+		EnhancedInputComponent->BindAction(VaultAction, ETriggerEvent::Started, this, &AProjectCreedCharacter::Vault);
+		EnhancedInputComponent->BindAction(VaultAction, ETriggerEvent::Completed, this, &AProjectCreedCharacter::Vault);
 	}
 	else
 	{
@@ -159,5 +164,12 @@ void AProjectCreedCharacter::StopSprinting(const FInputActionValue& Value)
 	{
 		GetCharacterMovement()->MaxWalkSpeed = 0.0f;
 	}
+}
+void AProjectCreedCharacter::Vault(const FInputActionValue& Value)
+{
+	GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Flying);
+
+	
 }
  
