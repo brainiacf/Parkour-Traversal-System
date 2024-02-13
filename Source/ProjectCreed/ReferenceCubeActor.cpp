@@ -33,6 +33,7 @@ AReferenceCubeActor::AReferenceCubeActor()
 	ArrowComponentBlue->SetupAttachment(CubeMesh);
 	ArrowComponentBlue->SetWorldRotation(FRotator(90.0f,0.0f,0.0f));
 	
+	
 
 
 

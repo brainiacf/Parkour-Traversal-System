@@ -25,10 +25,13 @@
 			"Name": "MotionWarping",
 			"Enabled": true
 		},
-
 		{
-            "Name": "GameplayInsights",
-            "Enabled": true
-        }
+			"Name": "GameplayInsights",
+			"Enabled": true
+		},
+		{
+			"Name": "AnimationWarping",
+			"Enabled": true
+		}
 	]
 }

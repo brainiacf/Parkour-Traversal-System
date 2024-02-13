@@ -11,6 +11,10 @@
 #include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
 #include "ReferenceCubeActor.h"
+#include "GameplayTagsManager.h"
+#include "Kismet/GameplayStatics.h"
+#include "GameFramework/Actor.h"
+#include "TraversalComponent.h"
 
 DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 
@@ -51,14 +55,20 @@ AProjectCreedCharacter::AProjectCreedCharacter()
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 
+	//TArray<AActor*> FoundActors;
+
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named ThirdPersonCharacter (to avoid direct content references in C++)
 }
+
+
 
 void AProjectCreedCharacter::BeginPlay()
 {
 	// Call the base class  
 	Super::BeginPlay();
+	UWorld* World = GetWorld();
+	
 
 	//Add Input Mapping Context
 	if (APlayerController* PlayerController = Cast<APlayerController>(Controller))
@@ -68,7 +78,12 @@ void AProjectCreedCharacter::BeginPlay()
 			Subsystem->AddMappingContext(DefaultMappingContext, 0);
 		}
 	}
+
+
+
 }
+
+
 
 //////////////////////////////////////////////////////////////////////////
 // Input
@@ -165,11 +180,4 @@ void AProjectCreedCharacter::StopSprinting(const FInputActionValue& Value)
 		GetCharacterMovement()->MaxWalkSpeed = 0.0f;
 	}
 }
-void AProjectCreedCharacter::Vault(const FInputActionValue& Value)
-{
-	GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
-	GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Flying);
-
-	
-}
- 
+void AProjectCreedCharacter::Vault(const FInputActionValue& Value){}

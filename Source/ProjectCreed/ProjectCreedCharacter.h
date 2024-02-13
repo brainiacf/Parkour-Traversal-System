@@ -8,11 +8,12 @@
 #include "MotionWarpingComponent.h"
 #include "ProjectCreedCharacter.generated.h"
 
-class ReferenceCubeActor;
+class AReferenceCubeActor;
 class USpringArmComponent;
 class UCameraComponent;
 class UInputMappingContext;
 class UInputAction;
+class ATraversalComponent;
 struct FInputActionValue;
 
 DECLARE_LOG_CATEGORY_EXTERN(LogTemplateCharacter, Log, All);
@@ -54,12 +55,16 @@ class AProjectCreedCharacter : public ACharacter
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	UInputAction* VaultAction;
 
-	// /*Reference Cube Actor*/
-	// UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Reference Cube", meta = (AllowPrivateAccess = "true"))
-	// TSubclassOf<ReferenceCubeActor> ReferenceCubeActorClass;
+	/*Reference Cube Actor*/
+	//UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Reference Cube", meta = (AllowPrivateAccess = "true"))
+	TSubclassOf<AReferenceCubeActor>CubeActorClass;
+	AReferenceCubeActor* CubeActorInstance;
+
 
 public:
 	AProjectCreedCharacter();
+	// UFUNCTION(BlueprintCallable, Category = "Reference Cube")
+	
 	
 
 protected:
@@ -89,5 +94,8 @@ public:
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	/** Returns FollowCamera subobject **/
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
+	
+	//TArray<AActor*> FoundActors;
+	
 };
 
