@@ -79,7 +79,7 @@ void AProjectCreedCharacter::BeginPlay()
 		}
 	}
 
-
+	
 
 }
 
@@ -109,7 +109,7 @@ void AProjectCreedCharacter::SetupPlayerInputComponent(UInputComponent* PlayerIn
 
 		// Vaulting
 		EnhancedInputComponent->BindAction(VaultAction, ETriggerEvent::Started, this, &AProjectCreedCharacter::Vault);
-		EnhancedInputComponent->BindAction(VaultAction, ETriggerEvent::Completed, this, &AProjectCreedCharacter::Vault);
+		EnhancedInputComponent->BindAction(VaultAction, ETriggerEvent::Completed, this, &AProjectCreedCharacter::StopVaulting);
 	}
 	else
 	{
@@ -180,4 +180,29 @@ void AProjectCreedCharacter::StopSprinting(const FInputActionValue& Value)
 		GetCharacterMovement()->MaxWalkSpeed = 0.0f;
 	}
 }
-void AProjectCreedCharacter::Vault(const FInputActionValue& Value){}
+void AProjectCreedCharacter::Vault(const FInputActionValue& Value)
+{
+	TArray<AActor*> FoundActors;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AReferenceCubeActor::StaticClass(), FoundActors);
+	float VaultValue = Value.Get<float>();
+	if (VaultValue > 0.0f)
+	{
+		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+		GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Flying);
+		FName DesiredTag = TEXT("HeightWrapRef");
+		for(AActor*Actors: FoundActors)
+		{
+			if(Actors->ActorHasTag(DesiredTag))
+			{
+				
+			}
+		}
+	}
+	
+	
+
+}
+void AProjectCreedCharacter::StopVaulting(const FInputActionValue& Value)
+{
+
+}

@@ -81,6 +81,7 @@ protected:
 
 	/*Called for Vault Input*/
 	void Vault(const FInputActionValue& Value);	
+	void StopVaulting(const FInputActionValue& Value);
 
 protected:
 	// APawn interface
