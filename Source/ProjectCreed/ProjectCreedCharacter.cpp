@@ -15,6 +15,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "GameFramework/Actor.h"
 #include "TraversalComponent.h"
+#include "MotionWarpingComponent.h"
 
 DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 
@@ -55,7 +56,8 @@ AProjectCreedCharacter::AProjectCreedCharacter()
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 
-	//TArray<AActor*> FoundActors;
+	// Create a MotionWarpingComponent
+	MotionWarpingComponent = CreateDefaultSubobject<UMotionWarpingComponent>(TEXT("MotionWarping"));
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named ThirdPersonCharacter (to avoid direct content references in C++)
@@ -192,10 +194,26 @@ void AProjectCreedCharacter::Vault(const FInputActionValue& Value)
 		FName DesiredTag = TEXT("HeightWrapRef");
 		for(AActor*Actors: FoundActors)
 		{
-			if(Actors->ActorHasTag(DesiredTag))
+			if(FoundActors.Num()>0)
 			{
+				AActor* FirstActor = FoundActors[0];
+				FVector ActorLocation = FirstActor->GetActorLocation();
+				FRotator ActorRotation = FirstActor->GetActorRotation();
+				// GEngine->AddOnScreenDebugMessage(-1, 5.f,			//////////////
+				// FColor::Red, 										//////////////
+				// FString::Printf(TEXT("Actor Location: %s"), 		//////////////
+				// *ActorLocation.ToString()));						//////////////
+
+				MotionWarpingComponent->AddOrUpdateWarpTargetFromLocationAndRotation(DesiredTag, ActorLocation, ActorRotation);
 				
+				
+
 			}
+			
+			
+		
+
+
 		}
 	}
 	

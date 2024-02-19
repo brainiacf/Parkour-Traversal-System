@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "Logging/LogMacros.h"
-#include "MotionWarpingComponent.h"
+
 #include "ProjectCreedCharacter.generated.h"
 
 class AReferenceCubeActor;
@@ -14,6 +14,7 @@ class UCameraComponent;
 class UInputMappingContext;
 class UInputAction;
 class ATraversalComponent;
+class UMotionWarpingComponent; 
 struct FInputActionValue;
 
 DECLARE_LOG_CATEGORY_EXTERN(LogTemplateCharacter, Log, All);
@@ -30,6 +31,9 @@ class AProjectCreedCharacter : public ACharacter
 	/** Follow camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	UCameraComponent* FollowCamera;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "MotionWarping", meta = (AllowPrivateAccess = "true"))
+	UMotionWarpingComponent* MotionWarpingComponent;
 	
 	/** MappingContext */
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
@@ -56,9 +60,11 @@ class AProjectCreedCharacter : public ACharacter
 	UInputAction* VaultAction;
 
 	/*Reference Cube Actor*/
-	//UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Reference Cube", meta = (AllowPrivateAccess = "true"))
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Reference Cube", meta = (AllowPrivateAccess = "true"))
 	TSubclassOf<AReferenceCubeActor>CubeActorClass;
 	AReferenceCubeActor* CubeActorInstance;
+
+
 
 
 public:
