@@ -17,6 +17,7 @@
 #include "TraversalComponent.h"
 #include "MotionWarpingComponent.h"
 
+
 DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 
 //////////////////////////////////////////////////////////////////////////
@@ -48,7 +49,7 @@ AProjectCreedCharacter::AProjectCreedCharacter()
 	// Create a camera boom (pulls in towards the player if there is a collision)
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->SetupAttachment(RootComponent);
-	CameraBoom->TargetArmLength = 400.0f; // The camera follows at this distance behind the character	
+	CameraBoom->TargetArmLength = 600.0f; // The camera follows at this distance behind the character	
 	CameraBoom->bUsePawnControlRotation = true; // Rotate the arm based on the controller
 
 	// Create a follow camera
@@ -58,7 +59,8 @@ AProjectCreedCharacter::AProjectCreedCharacter()
 
 	// Create a MotionWarpingComponent
 	MotionWarpingComponent = CreateDefaultSubobject<UMotionWarpingComponent>(TEXT("MotionWarping"));
-
+	VaultMontage = ConstructorHelpers::FObjectFinder<UAnimMontage>(TEXT("C:/Users/nemju/OneDrive/Desktop/ProjectCreed/Parkour-Traversal-System/Content/Animations/AM_VaultAction")).Object;
+	
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named ThirdPersonCharacter (to avoid direct content references in C++)
 }
@@ -189,33 +191,93 @@ void AProjectCreedCharacter::Vault(const FInputActionValue& Value)
 	float VaultValue = Value.Get<float>();
 	if (VaultValue > 0.0f)
 	{
-		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+		//GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+		GetCapsuleComponent() ->SetCapsuleSize(42.f, 45.0f);
 		GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Flying);
-		FName DesiredTag = TEXT("HeightWrapRef");
-		for(AActor*Actors: FoundActors)
+		FName HeightWarpRef = TEXT("HeightWrapRef");
+		FName DepthWarpRef = TEXT("DepthWrapRef");
+		FName VaultWarpRef = TEXT("VaultWrapRef");
+		for(AActor*Actors: FoundActors)	//Height Warp
 		{
-			if(FoundActors.Num()>0)
+			if(Actors->ActorHasTag(HeightWarpRef))
 			{
-				AActor* FirstActor = FoundActors[0];
-				FVector ActorLocation = FirstActor->GetActorLocation();
-				FRotator ActorRotation = FirstActor->GetActorRotation();
-				// GEngine->AddOnScreenDebugMessage(-1, 5.f,			//////////////
-				// FColor::Red, 										//////////////
-				// FString::Printf(TEXT("Actor Location: %s"), 		//////////////
-				// *ActorLocation.ToString()));						//////////////
+				if(FoundActors.Num()>0)
+				{
+					AActor* FirstActor = FoundActors[0];
+					FVector ActorLocation = FirstActor->GetActorLocation();
+					ActorLocation.Z+=-60.f;
+					FRotator ActorRotation = FirstActor->GetActorRotation();
+					MotionWarpingComponent->AddOrUpdateWarpTargetFromLocationAndRotation
+					(HeightWarpRef,
+					ActorLocation, 
+					ActorRotation);
 
-				MotionWarpingComponent->AddOrUpdateWarpTargetFromLocationAndRotation(DesiredTag, ActorLocation, ActorRotation);
-				
-				
+					GEngine->AddOnScreenDebugMessage(-1, 5.f,			//////////////
+					FColor::Red, 										//////////////
+					FString::Printf(TEXT("Actor Location: %s"), 		//////////////
+					*ActorLocation.ToString()));						//////////////
+
+					FName Tag = Actors->Tags[0];
+					FString TagString = Tag.ToString();
+					GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, TagString);
+
+					
+				}
 
 			}
+			if(Actors->ActorHasTag(DepthWarpRef))	//Depth Warp
+			{
+				if(FoundActors.Num()>0)
+				{
+					AActor* FirstActor = FoundActors[0];
+					FVector ActorLocation = FirstActor->GetActorLocation();
+					ActorLocation.Z+=-45.f;
+					FRotator ActorRotation = FirstActor->GetActorRotation();
+					MotionWarpingComponent->AddOrUpdateWarpTargetFromLocationAndRotation
+					(DepthWarpRef,
+					ActorLocation, 
+					ActorRotation);
+				}
+			}
+			if(Actors->ActorHasTag(VaultWarpRef))	//Vault Warp
+			{
+				if(FoundActors.Num()>0)
+				{
+					AActor* FirstActor = FoundActors[0];
+					FVector ActorLocation = FirstActor->GetActorLocation();
+					ActorLocation.Z+=3.0f;
+					FRotator ActorRotation = FirstActor->GetActorRotation();
+					MotionWarpingComponent->AddOrUpdateWarpTargetFromLocationAndRotation
+					(VaultWarpRef,
+					ActorLocation, 
+					ActorRotation);
+				}
+			}
+		
 			
 			
 		
 
 
 		}
-	}
+
+		//Mesh 
+		USkeletalMeshComponent* CharacterMesh = GetMesh();
+		UAnimInstance* AnimInstance = CharacterMesh->GetAnimInstance();
+		if (AnimInstance && VaultMontage)
+		{
+			AnimInstance->Montage_Play(VaultMontage, 1.0f);
+			CharacterMesh->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+			GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Flying);
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Vaulting"));
+		}
+
+    }
+	
+	
+	
+	
+	
 	
 	
 

@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "Logging/LogMacros.h"
+#include "Animation/AnimMontage.h"
 
 #include "ProjectCreedCharacter.generated.h"
 
@@ -63,6 +64,9 @@ class AProjectCreedCharacter : public ACharacter
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Reference Cube", meta = (AllowPrivateAccess = "true"))
 	TSubclassOf<AReferenceCubeActor>CubeActorClass;
 	AReferenceCubeActor* CubeActorInstance;
+
+	UPROPERTY(EditAnywhere, Category = "Animation")
+    UAnimMontage* VaultMontage; 
 
 
 
