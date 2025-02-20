@@ -1,90 +1,178 @@
 [
 	{
-		"file": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\Source\\ProjectCreed\\Private\\TraversalComponent.cpp",
+		"file": "C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\Plugins\\ElectronicNodes\\Source\\ElectronicNodes\\ElectronicNodes.Build.cs",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ProjectCreed.1.rsp"
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ElectronicNodes.39.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\Source\\ProjectCreed\\ProjectCreed.Build.cs",
+		"file": "C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\Plugins\\ElectronicNodes\\Source\\ElectronicNodes\\Private\\ENCommands.h",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ProjectCreed.1.rsp"
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ElectronicNodes.39.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\Source\\ProjectCreed\\ProjectCreed.cpp",
+		"file": "C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\Plugins\\ElectronicNodes\\Source\\ElectronicNodes\\Private\\ENConnectionDrawingPolicy.cpp",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ProjectCreed.1.rsp"
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ElectronicNodes.39.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\Source\\ProjectCreed\\ProjectCreed.h",
+		"file": "C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\Plugins\\ElectronicNodes\\Source\\ElectronicNodes\\Private\\ENConnectionDrawingPolicy.h",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ProjectCreed.1.rsp"
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ElectronicNodes.39.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\Source\\ProjectCreed\\ProjectCreedCharacter.cpp",
+		"file": "C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\Plugins\\ElectronicNodes\\Source\\ElectronicNodes\\Private\\ENPathDrawer.cpp",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ProjectCreed.1.rsp"
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ElectronicNodes.39.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\Source\\ProjectCreed\\ProjectCreedCharacter.h",
+		"file": "C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\Plugins\\ElectronicNodes\\Source\\ElectronicNodes\\Private\\ENPathDrawer.h",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ProjectCreed.1.rsp"
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ElectronicNodes.39.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\Source\\ProjectCreed\\ProjectCreedGameMode.cpp",
+		"file": "C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\Plugins\\ElectronicNodes\\Source\\ElectronicNodes\\Private\\ElectronicNodes.cpp",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ProjectCreed.1.rsp"
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ElectronicNodes.39.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\Source\\ProjectCreed\\ProjectCreedGameMode.h",
+		"file": "C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\Plugins\\ElectronicNodes\\Source\\ElectronicNodes\\Private\\Lib\\HotPatch.h",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ProjectCreed.1.rsp"
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ElectronicNodes.39.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\Source\\ProjectCreed\\Public\\TraversalComponent.h",
+		"file": "C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\Plugins\\ElectronicNodes\\Source\\ElectronicNodes\\Private\\Patch\\NodeFactoryPatch.cpp",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ProjectCreed.1.rsp"
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ElectronicNodes.39.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\Source\\ProjectCreed\\ReferenceCubeActor.cpp",
+		"file": "C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\Plugins\\ElectronicNodes\\Source\\ElectronicNodes\\Private\\Patch\\NodeFactoryPatch.h",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ProjectCreed.1.rsp"
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ElectronicNodes.39.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
 	},
 	{
-		"file": "C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\Source\\ProjectCreed\\ReferenceCubeActor.h",
+		"file": "C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\Plugins\\ElectronicNodes\\Source\\ElectronicNodes\\Private\\Policies\\ENAnimGraphConnectionDrawingPolicy.h",
 		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@C:\\Users\\nemju\\OneDrive\\Desktop\\ProjectCreed\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ProjectCreed.1.rsp"
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ElectronicNodes.39.rsp"
 		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\Plugins\\ElectronicNodes\\Source\\ElectronicNodes\\Private\\Policies\\ENBehaviorTreeConnectionDrawingPolicy.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ElectronicNodes.39.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\Plugins\\ElectronicNodes\\Source\\ElectronicNodes\\Private\\Popup\\ENUpdateConfig.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ElectronicNodes.39.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\Plugins\\ElectronicNodes\\Source\\ElectronicNodes\\Private\\Popup\\ENUpdatePopup.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ElectronicNodes.39.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\Plugins\\ElectronicNodes\\Source\\ElectronicNodes\\Private\\Popup\\ENUpdatePopup.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ElectronicNodes.39.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\Plugins\\ElectronicNodes\\Source\\ElectronicNodes\\Public\\ElectronicNodes.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ElectronicNodes.39.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\Plugins\\ElectronicNodes\\Source\\ElectronicNodes\\Public\\ElectronicNodesSettings.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ElectronicNodes.39.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\Source\\ProjectCreed\\CC.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ProjectCreed.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\Source\\ProjectCreed\\CC.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ProjectCreed.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\Source\\ProjectCreed\\ProjectCreed.Build.cs",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ProjectCreed.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\Source\\ProjectCreed\\ProjectCreed.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ProjectCreed.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\Source\\ProjectCreed\\ProjectCreed.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\204ni\\OneDrive\\Desktop\\UE_Projects\\Parkour-Traversal-System\\.vscode\\compileCommands_ProjectCreed\\ProjectCreed.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
 	}
 ]
